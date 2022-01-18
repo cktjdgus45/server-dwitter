@@ -43,7 +43,6 @@ export function update(id, text) {
     if (tweet) {
         tweet.text = text;
     }
-    console.log(id, text, tweet)
     return tweet;
 }
 export function remove(id) {
