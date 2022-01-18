@@ -1,6 +1,5 @@
 import express from 'express';
 import 'express-async-errors';
-import * as tweetRepository from '../model/tweet.js';
 import * as tweetController from '../controller/tweetController.js';
 
 const tweetRouter = express.Router();
